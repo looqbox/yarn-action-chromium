@@ -4,4 +4,4 @@ RUN apk add chromium
 
 ENV CHROME_BIN="/usr/bin/chromium-browser"
 
-ENTRYPOINT["/bin/sh"]
+CMD ["/bin/sh"]
